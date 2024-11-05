@@ -1,0 +1,80 @@
+# Diretórios de Build
+bin/
+obj/
+out/
+
+# Arquivos de dependências do .NET
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Diretórios do VS Code
+.vscode/
+
+# Arquivos e pastas do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Arquivos de Configuração de Ambiente
+*.env
+.env.*
+
+# Logs e Dados Temporários
+*.log
+logs/
+*.tlog
+*.ide.*
+
+# Arquivos de Pacotes
+packages/
+*.nupkg
+*.snupkg
+
+# Dados do NuGet
+.nuget/
+*.nuspec
+
+# Arquivos de Cache e Backup
+**/*.pidb
+*.svclog
+*.orig
+
+# Diretórios de publicação
+.publish/
+
+# Arquivos de Testes e Code Coverage
+TestResults/
+*.coverage
+*.coveragexml
+*.testResults
+.trx
+.coverage
+
+# Arquivos de Configuração de Usuário do Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Arquivos de Configuração de IDEs Comuns
+.idea/
+*.suo
+*.rsuser
+*.csproj.user
+*.resharper
+
+# Arquivos de Integração Contínua
+!/.github
+!/.devcontainer
+*.ci.yaml
+
+# Arquivos de Configuração de Contêiner
+docker-compose*.yml
+*.dockerignore
+Dockerfile
+
+# Arquivos de Banco de Dados Local
+*.mdf
+*.ldf
+sqlite.db
